@@ -12,7 +12,7 @@ DSH_BIN="${DSH:-dsh}"
 cat > "$TMP" <<EOF
 - insert:
     - id: inline-followup
-      name: file://$ROOT/index.js
+      name: "file://$ROOT/index.js"
       config:
         maxTokens: 1200
 EOF

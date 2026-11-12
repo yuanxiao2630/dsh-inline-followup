@@ -1,0 +1,15 @@
+# dsh-inline-followup: installs one Host row plus its Web client bundle.
+#
+# The row id stays stable because the Loader and the plugin inventory key on it.
+# The optional model route below is only a fallback: when `provider`/`model`
+# are omitted the Host follows the profile's agent-default-model selection.
+- insert:
+    - id: inline-followup
+      name: dsh-inline-followup
+      config:
+        # Optional explicit route for the small-window answerer. Leave unset to
+        # follow the same default model the rest of the app uses.
+        # provider: deepseek-account
+        # model: deepseek-flash
+        # reasoningEffort: high
+        maxTokens: 1800

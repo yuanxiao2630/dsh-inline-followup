@@ -1,0 +1,74 @@
+{
+  "name": "dsh-inline-followup",
+  "version": "0.1.0",
+  "description": "划词追问：选中 DeepSeek Harness 对话中的内容，就在旁边的小窗继续追问，或把选中内容作为引用带回主对话。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "selection",
+    "follow-up",
+    "quote",
+    "chat"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "default": "./index.js"
+    },
+    "./client": {
+      "default": "./client.js"
+    },
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "docs/*.png",
+    "SECURITY.md"
+  ],
+  "engines": {
+    "node": ">=20",
+    "dsh": ">=0.2.0 <0.3.0"
+  },
+  "icon": "./icon.svg",
+  "meta": {
+    "title": "划词追问",
+    "description": "选中内容后就地小窗追问，或引用到主对话继续提问。"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node --check index.js && node --check client.js",
+    "test": "node test/host-smoke.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  },
+  "author": "mango2630",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mango2630/dsh-inline-followup.git"
+  },
+  "homepage": "https://github.com/mango2630/dsh-inline-followup#readme",
+  "bugs": {
+    "url": "https://github.com/mango2630/dsh-inline-followup/issues"
+  },
+  "packageManager": "pnpm@11.28.5"
+}

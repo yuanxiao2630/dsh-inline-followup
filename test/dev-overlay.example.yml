@@ -1,0 +1,8 @@
+# Template for a manual local overlay. Copy it outside the repository and
+# replace /absolute/path/to/dsh-inline-followup with the real checkout path.
+# `test/dev.sh` generates this file for you with the correct path.
+- insert:
+    - id: inline-followup
+      name: file:///absolute/path/to/dsh-inline-followup/index.js
+      config:
+        maxTokens: 1200

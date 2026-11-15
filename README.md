@@ -1,6 +1,6 @@
 # 划词追问 · dsh-inline-followup
 
-[![check](https://github.com/mango2630/dsh-inline-followup/actions/workflows/check.yml/badge.svg)](https://github.com/mango2630/dsh-inline-followup/actions/workflows/check.yml)
+[![check](https://github.com/yuanxiao2630/dsh-inline-followup/actions/workflows/check.yml/badge.svg)](https://github.com/yuanxiao2630/dsh-inline-followup/actions/workflows/check.yml)
 [![npm version](https://img.shields.io/npm/v/dsh-inline-followup.svg)](https://www.npmjs.com/package/dsh-inline-followup)
 [![DeepSeek Harness](https://img.shields.io/badge/DeepSeek%20Harness-0.2.x-4d6bfe)](https://github.com/deepseek-ai/deepseek-harness)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -78,7 +78,7 @@ Desktop 也可以在 **插件 → 添加插件** 中直接填入 `dsh-inline-fol
 ### Web / CLI
 
 ```sh
-git clone https://github.com/mango2630/dsh-inline-followup.git
+git clone https://github.com/yuanxiao2630/dsh-inline-followup.git
 cd dsh-inline-followup
 
 # 从本地目录安装
@@ -215,7 +215,7 @@ dsh-inline-followup/
 ## 开发
 
 ```sh
-git clone https://github.com/mango2630/dsh-inline-followup.git
+git clone https://github.com/yuanxiao2630/dsh-inline-followup.git
 cd dsh-inline-followup
 
 pnpm install        # 仅开发需要 esbuild

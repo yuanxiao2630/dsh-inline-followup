@@ -61,14 +61,14 @@
   "devDependencies": {
     "esbuild": "^0.28.2"
   },
-  "author": "mango2630",
+  "author": "yuanxiao2630",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mango2630/dsh-inline-followup.git"
+    "url": "git+https://github.com/yuanxiao2630/dsh-inline-followup.git"
   },
-  "homepage": "https://github.com/mango2630/dsh-inline-followup#readme",
+  "homepage": "https://github.com/yuanxiao2630/dsh-inline-followup#readme",
   "bugs": {
-    "url": "https://github.com/mango2630/dsh-inline-followup/issues"
+    "url": "https://github.com/yuanxiao2630/dsh-inline-followup/issues"
   },
   "packageManager": "pnpm@11.28.5",
   "publishConfig": {

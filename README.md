@@ -1,6 +1,7 @@
 # 划词追问 · dsh-inline-followup
 
 [![check](https://github.com/mango2630/dsh-inline-followup/actions/workflows/check.yml/badge.svg)](https://github.com/mango2630/dsh-inline-followup/actions/workflows/check.yml)
+[![npm version](https://img.shields.io/npm/v/dsh-inline-followup.svg)](https://www.npmjs.com/package/dsh-inline-followup)
 [![DeepSeek Harness](https://img.shields.io/badge/DeepSeek%20Harness-0.2.x-4d6bfe)](https://github.com/deepseek-ai/deepseek-harness)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -51,10 +52,25 @@
 
 ## 安装
 
+### 从 npm 安装
+
+包名：[`dsh-inline-followup`](https://www.npmjs.com/package/dsh-inline-followup)
+
+```sh
+# Web / CLI profile
+dsh plugin --profile web add dsh-inline-followup
+
+# 或者直接在 profile 中安装
+cd ~/.dsh/profiles/web
+pnpm add dsh-inline-followup
+```
+
+Desktop 也可以在 **插件 → 添加插件** 中直接填入 `dsh-inline-followup`。安装后**完全退出并重新打开** DSH。
+
 ### Desktop（推荐）
 
 1. 打开 DeepSeek Harness 的 **插件 → 添加插件**。
-2. 填入本仓库的本地路径、打包后的 `.tgz`，或 GitHub 地址。
+2. 填入 npm 包名 `dsh-inline-followup`、本仓库的本地路径、打包后的 `.tgz`，或 GitHub 地址。
 3. 选择 **安装**，然后 **立即启用**。
 4. **完全退出并重新打开** DeepSeek Harness（新的 Host 行需要重启加载）。
 5. 在 **设置 → 插件** 中确认「划词追问」处于启用状态。
